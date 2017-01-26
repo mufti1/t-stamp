@@ -1,0 +1,167 @@
+/*custom css*/
+.navbar-default{
+	background: transparent;
+	border:  none;
+}
+.navbar-default.change-color {
+  background-color: #EF2A2A;
+  opacity: 1;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer{
+	background-color: #EF2A2A;
+	color: #ecf0f1;
+}
+.first{
+	width:10%;
+	display:inline-block;
+	vertical-align: middle; 
+	border-width: 1px;
+	border-color: #2c3e50;
+	margin: 30px;
+}
+.content1{
+	background-color: #dee1e2;
+}
+.keunggulan{
+	background-color: #dee1e2;
+	height: 650px;
+}
+#product{
+	margin-left: 156px;
+}
+.compare{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.compare fieldset{
+	background-color: #ecf0f1;
+	-webkit-box-shadow: 5px 10px 5px 0px rgba(149,165,166,1);
+	-moz-box-shadow: 5px 10px 5px 0px rgba(149,165,166,1);
+	box-shadow: 5px 10px 5px 0px rgba(149,165,166,1);
+}
+.margin-fieldset{
+	margin-top: 80px;
+}
+.contact{
+	background-color: #e74c3c;
+}
+.contact ul{
+	list-style-type: none;
+}
+.join{
+	background-color: #e74c4c;
+}
+ #map-outer{
+ 	height: 440px;   
+}
+#map-container{
+	height: 400px
+}
+.content4{
+	min-height: 700px;
+}
+/*accordion*/
+button.accordion {
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.4s;
+	border: none;
+	width: 100%;
+}
+button.accordion.active, button.accordion:hover{
+	background-color: #c0392b;
+}
+button.accordion:after{
+	content: '\002B';
+}
+button.accordion.active:after{
+	content: "\2212";
+}
+div.panel{
+	background-color: #c0392b;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+/*color css*/
+.color-white{
+	color: #fff !important;
+}
+.color-green{
+	color: #2ecc71;
+}
+.color-red{
+	color: #e74c3c;
+}
+.border-white{
+	border-color: #ecf0f1;
+}
+/*area responsive*/
+@media screen and (max-width: 700px){
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 900px){
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 80px;
+	}
+}
+@media screen and (max-width: 400px){
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 30px;
+	}
+	.first{
+		margin: 10px;
+	}
+}
+/*khusus iphone 6*/
+@media screen and (max-width: 375px){
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 60px;
+	}
+	.first{
+		margin: 10px;
+	}
+}
+/*khusus iphone 5*/
+@media screen and (max-width: 320px){
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 30px;
+	}
+	.first{
+		margin: 10px;
+	}
+}
+/*khusus ipad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+	.navbar-default{
+		width: auto;
+	}
+	#product{
+		margin-left: 250px;
+	}
+	.first{
+		margin: 10px;
+	}
+}
