@@ -13,7 +13,7 @@
 });
 //buat ngatur speeed
   $('.carousel').carousel({
-      interval: 6000000,
+      interval: 6000,
       pause: "false"
   });
 //smooth scrolling
