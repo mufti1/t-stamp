@@ -54,7 +54,7 @@
 	list-style-type: none;
 }
 .join{
-	background-color: #e74c4c;
+	background-color: #FFFFFF;
 }
  #map-outer{
  	height: 440px;   
@@ -74,7 +74,7 @@ button.accordion {
 	width: 100%;
 }
 button.accordion.active, button.accordion:hover{
-	background-color: #c0392b;
+	background-color: #ecf0f1;
 }
 button.accordion:after{
 	content: '\002B';
@@ -83,10 +83,36 @@ button.accordion.active:after{
 	content: "\2212";
 }
 div.panel{
-	background-color: #c0392b;
+	background-color: #ecf0f1;
 	overflow: hidden;
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
+}
+div.col-md-4.product{
+	margin-top: 20px;
+}
+label.product-caption{
+	display: none;
+	position: absolute;
+    top: 0px;
+    width: 50%;
+    min-height: 200px;
+    background: rgb(51, 51, 51);
+    padding: 2em 1em;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+div.col-md-4.product:hover label.product-caption{
+	display:block;
+    -moz-transition: opacity 1s ease-in !important;
+    -o-transition: opacity 1s ease-in !important;
+    transition: opacity 1s ease-in !important;
+}
+.content5{
+	background-color: #DEE1E2;
 }
 /*color css*/
 .color-white{
