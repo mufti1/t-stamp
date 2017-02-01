@@ -62,8 +62,10 @@
 #map-container{
 	height: 400px
 }
-.content4{
-	min-height: 700px;
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: #95a5a6;
 }
 /*accordion*/
 button.accordion {

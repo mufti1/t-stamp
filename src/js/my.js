@@ -11,10 +11,17 @@
     }
   });
 });
-//buat ngatur speeed
+//buat ngatur speeed dan carousel
   $('.carousel').carousel({
       interval: 6000,
       pause: "false"
+  });
+  $('.carousel-control.left').click(function() {
+      $('#myCarousel').carousel('prev');
+  });
+
+  $('.carousel-control.right').click(function() {
+      $('#myCarousel').carousel('next');
   });
 //smooth scrolling
 $('a[href*="#"]:not([href="#"])').click(function() {
